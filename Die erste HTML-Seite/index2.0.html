@@ -2,37 +2,36 @@
 <html lang="de">
   <head>
  
-    <dic class="strich"></dic>
-
     <style type="text/css">
-      body {background-color: black; border: 6px solid lightgrey; text-align: center; border-radius: 4%;}
-      footer {position:relative; left: 0; bottom: 0; width: 100%; text-align: center;}
-      <!-- strich {border-left: 4px solid lightgrey; height: 20%; position: absolute; left: 25%; margin-left: -3%; top: 20%;} -->
-      h1 {color: lightgray; margin: 5%;}
-      h4 {color: lightgray;}
-      p {color: lightgray;}
-      .überschrift {font-size: 300%; margin-bottom: 0%;}
-      .unterschrift {font-size: 150%; margin-top: 0%; letter-spacing: +1px;}
-      .bild1 {width: 40%; border-right: 4px solid lightgray; padding-right: 5%; margin-bottom: 5%;}
-      .bild2 {width: 40%; border-right: 4px solid lightgray; padding-right: 5%; margin-bottom: 5%;}
-      .bild3 {width: 40%; border-right: 4px solid lightgray; padding-right: 5%; margin-bottom: 5%;}
-      .bild4 {width: 40%; border-right: 4px solid lightgray; padding-right: 5%; margin-bottom: 5%;}
-      .textBild1 {float: right; text-align: left; margin-right: 7%;}
-      .textBild2 {float: right; text-align: left; padding-right: 20%;}
+        header {background-color: green; text-align: center;}
+        main {display: flex;}
+        main nav{width: 20%; background-color: red;}
+        main div#content {width: 80%; background-color: blue;}
+        footer {background-color: yellow; text-align: center;}
+        .bild1 {width: 30%;}
+        .bild2 {width: 30%;}
+        .bild3 {width: 30%;}
     </style>
 
     <title>Moritz Schwind</title>
   </head>
 
-  <body>
-    <p class="überschrift">Moritz Schwind<p>
-    <p class="unterschrift">analoge Fotografie<p>
+  <header>
+    <p>Moritz Schwind<p><p>analoge Fotografie<p>
+  </header>
 
-    <p class="textBild1">Portraitaufnahme mit Freunden<br><br>Download</p><img class="bild1" src="Testbild.JPG" alt="testbild">
-    <p class="textBild2">Bangkok<br><br>Download</p><img class="bild2" src="bangkok.jpg" alt="Bangkok auf S/W Film">
-    <img class="bild3" src="bild3.jpg" alt="Motortaxi auf dem Land"><br><br>
-    <img class="bild4" src="bild4.jpg" alt="Landrover in BKK">
-  </body>
+  <main>
+    <nav>
+        <p>Menü</p>
+    </nav>
+<div id="content">
+    <img class="bild1" src="Testbild.JPG" alt="testbild"><p>Portraitaufnahme mit Freunden<br><br>Download</p>
+    <img class="bild2" src="bangkok.jpg" alt="Bangkok auf S/W Film"><p>Bangkok<br><br>Download</p>
+    <img class="bild3" src="bild3.jpg"  alt="Bild">
+<</div id="content">
+ 
+
+    </main>
 
   <footer>
     <p>Datenschutz : Impressum</p>
